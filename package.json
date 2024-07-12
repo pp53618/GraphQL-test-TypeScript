@@ -1,0 +1,23 @@
+{
+  "name": "graphql-test-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "tsconfig.json": "^1.0.11",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.9.0",
+    "nexus": "^1.3.0"
+  }
+}
